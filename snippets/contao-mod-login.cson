@@ -1,0 +1,45 @@
+'.source.css':
+  'Contao Mod Login':
+    'prefix': 'mod_login'
+    'body': """
+      .mod_login {
+        ${1}
+      }
+
+      .mod_login .text {
+        ${2}
+      }
+
+      .mod_login .login_info {
+        ${3}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao Mod Login':
+    'prefix': 'mod_login'
+    'body': """
+      .mod_login {
+        ${1}
+        .text {
+          ${2}
+        }
+
+        .login_info {
+          ${3}
+        }
+
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao Mod Login':
+    'prefix': 'mod_login'
+    'body': """
+      .mod_login
+        ${1}
+        .text
+          ${2}
+        .login_info
+          ${3}
+    """

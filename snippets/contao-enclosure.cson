@@ -1,0 +1,65 @@
+'.source.css':
+  'Contao Enclosure':
+    'prefix': 'enclosure'
+    'body': """
+      .enclosure {
+        ${1}
+      }
+
+      .enclosure p {
+        ${2}
+      }
+
+      .enclosure a {
+        ${3}
+      }
+
+      .enclosure .mime_icon {
+        ${4}
+      }
+
+      .enclosure .size {
+        ${5}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao Enclosure':
+    'prefix': 'enclosure'
+    'body': """
+      .enclosure {
+        ${1}
+        p {
+          ${2}
+        }
+
+        a {
+          ${3}
+        }
+
+        .mime_icon {
+          ${4}
+        }
+
+        .size {
+          ${5}
+        }
+
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao Enclosure':
+    'prefix': 'enclosure'
+    'body': """
+      .enclosure
+        ${1}
+        p
+          ${2}
+        a
+          ${3}
+        .mime_icon
+          ${4}
+        .size
+          ${5}
+    """

@@ -1,0 +1,45 @@
+'.source.css':
+  'Contao Mod Unsubscribe':
+    'prefix': 'mod_unsubscribe'
+    'body': """
+      .mod_unsubscribe {
+        ${1}
+      }
+
+      .mod_unsubscribe .formbody {
+        ${2}
+      }
+
+      .mod_unsubscribe .text {
+        ${3}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao Mod Unsubscribe':
+    'prefix': 'mod_unsubscribe'
+    'body': """
+      .mod_unsubscribe {
+        ${1}
+        .formbody {
+          ${2}
+        }
+
+        .text {
+          ${3}
+        }
+
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao Mod Unsubscribe':
+    'prefix': 'mod_unsubscribe'
+    'body': """
+      .mod_unsubscribe
+        ${1}
+        .formbody
+          ${2}
+        .text
+          ${3}
+    """

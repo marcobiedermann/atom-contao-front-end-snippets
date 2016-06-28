@@ -1,0 +1,223 @@
+'.source.css':
+  'Contao CE Table':
+    'prefix': 'ce_table'
+    'body': """
+      .ce_table {
+        ${1}
+      }
+
+      .ce_table thead {
+        ${2}
+      }
+
+      .ce_table tfoot {
+        ${3}
+      }
+
+      .ce_table tr {
+        ${4}
+      }
+
+      .ce_table tr.even {
+        ${5}
+      }
+
+      .ce_table tr.odd {
+        ${6}
+      }
+
+      .ce_table tr.unsortable {
+        ${7}
+      }
+
+      .ce_table th {
+        ${8}
+      }
+
+      .ce_table th.first {
+        ${9}
+      }
+
+      .ce_table th.last {
+        ${10}
+      }
+
+      .ce_table td {
+        ${11}
+      }
+
+      .ce_table td.first {
+        ${12}
+      }
+
+      .ce_table td.last {
+        ${13}
+      }
+
+      .ce_table caption {
+        ${14}
+      }
+
+      .ce_table .sortable {
+        ${15}
+      }
+
+      .ce_table .row_first {
+        ${16}
+      }
+
+      .ce_table .row_last {
+        ${17}
+      }
+
+      .ce_table .col_first {
+        ${18}
+      }
+
+      .ce_table .col_last {
+        ${19}
+      }
+
+      .ce_table .header {
+        ${20}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao CE Table':
+    'prefix': 'ce_table'
+    'body': """
+      .ce_table {
+        ${1}
+        table {
+          ${2}
+        }
+
+        thead {
+          ${3}
+        }
+
+        tfoot {
+          ${4}
+        }
+
+        tbody {
+          ${5}
+        }
+
+        tr {
+          ${6}
+          &.even {
+            ${7}
+          }
+
+          &.odd {
+            ${8}
+          }
+
+          &.unsortable {
+            ${9}
+          }
+
+        }
+
+        th {
+          ${10}
+          &.col_first {
+            ${11}
+          }
+
+          &.col_last {
+            ${12}
+          }
+
+        }
+
+        td {
+          ${13}
+          &.row_first {
+            ${14}
+          }
+
+          &.row_last {
+            ${15}
+          }
+
+          &.col_first {
+            ${16}
+          }
+
+          &.col_last {
+            ${17}
+          }
+
+          &.even {
+            ${18}
+          }
+
+          &.odd {
+            ${19}
+          }
+
+        }
+
+        caption {
+          ${20}
+        }
+
+        .sortable {
+          ${21}
+        }
+
+        .header {
+          ${22}
+        }
+
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao CE Table':
+    'prefix': 'ce_table'
+    'body': """
+      .ce_table
+        ${1}
+        thead
+          ${2}
+        tfoot
+          ${3}
+        tr
+          ${4}
+          &.even
+            ${5}
+          &.odd
+            ${6}
+          &.unsortable
+            ${7}
+        th
+          ${8}
+          &.first
+            ${9}
+          &.last
+            ${10}
+        td
+          ${11}
+          &.first
+            ${12}
+          &.last
+            ${13}
+        caption
+          ${14}
+        .sortable
+          ${15}
+        .row_first
+          ${16}
+        .row_last
+          ${17}
+        .col_first
+          ${18}
+        .col_last
+          ${19}
+        .header
+          ${20}
+    """

@@ -1,0 +1,25 @@
+'.source.css':
+  'Contao Mod Close Account':
+    'prefix': 'mod_closeAccount'
+    'body': """
+      .mod_closeAccount {
+        ${1}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao Mod Close Account':
+    'prefix': 'mod_closeAccount'
+    'body': """
+      .mod_closeAccount {
+        ${1}
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao Mod Close Account':
+    'prefix': 'mod_closeAccount'
+    'body': """
+      .mod_closeAccount
+        ${1}
+    """

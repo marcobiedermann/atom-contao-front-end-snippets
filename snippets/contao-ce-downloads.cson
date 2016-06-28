@@ -1,0 +1,75 @@
+'.source.css':
+  'Contao CE Downloads':
+    'prefix': 'ce_downloads'
+    'body': """
+      .ce_downloads {
+        ${1}
+      }
+
+      .ce_downloads ul {
+        ${2}
+      }
+
+      .ce_downloads li {
+        ${3}
+      }
+
+      .ce_downloads a {
+        ${4}
+      }
+
+      .ce_downloads .mime_icon {
+        ${5}
+      }
+
+      .ce_downloads .size {
+        ${6}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao CE Downloads':
+    'prefix': 'ce_downloads'
+    'body': """
+      .ce_downloads {
+        ${1}
+        ul {
+          ${2}
+        }
+
+        li {
+          ${3}
+        }
+
+        a {
+          ${4}
+        }
+
+        .mime_icon {
+          ${5}
+        }
+
+        .size {
+          ${6}
+        }
+
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao CE Downloads':
+    'prefix': 'ce_downloads'
+    'body': """
+      .ce_downloads
+        ${1}
+        ul
+          ${2}
+        li
+          ${3}
+        a
+          ${4}
+        .mime_icon
+          ${5}
+        .size
+          ${6}
+    """

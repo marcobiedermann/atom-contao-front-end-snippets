@@ -1,0 +1,165 @@
+'.source.css':
+  'Contao Mod FAQ Page':
+    'prefix': 'mod_faqpage'
+    'body': """
+      .mod_faqpage {
+        ${1}
+      }
+
+      .mod_faqpage article {
+        ${2}
+      }
+
+      .mod_faqpage article.first {
+        ${3}
+      }
+
+      .mod_faqpage article.last {
+        ${4}
+      }
+
+      .mod_faqpage article.even {
+        ${5}
+      }
+
+      .mod_faqpage article.odd {
+        ${6}
+      }
+
+      .mod_faqpage section {
+        ${7}
+      }
+
+      .mod_faqpage section.first {
+        ${8}
+      }
+
+      .mod_faqpage section.last {
+        ${9}
+      }
+
+      .mod_faqpage section.even {
+        ${10}
+      }
+
+      .mod_faqpage section.odd {
+        ${11}
+      }
+
+      .mod_faqpage .enclosure {
+        ${12}
+      }
+
+      .mod_faqpage .info {
+        ${13}
+      }
+
+      .mod_faqpage .size {
+        ${14}
+      }
+
+      .mod_faqpage .toplink {
+        ${15}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao Mod FAQL Page':
+    'prefix': 'mod_faqpage'
+    'body': """
+      .mod_faqpage {
+        ${1}
+        article {
+          ${2}
+          &.first {
+            ${3}
+          }
+
+          &.last {
+            ${4}
+          }
+
+          &.even {
+            ${5}
+          }
+
+          &.odd {
+            ${6}
+          }
+
+        }
+
+        section {
+          ${7}
+          &.first {
+            ${8}
+          }
+
+          &.last {
+            ${9}
+          }
+
+          &.even {
+            ${10}
+          }
+
+          &.odd {
+            ${11}
+          }
+
+        }
+
+        .enclosure {
+          ${12}
+        }
+
+        .info {
+          ${13}
+        }
+
+        .size {
+          ${14}
+        }
+
+        .toplink {
+          ${15}
+        }
+
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao Mod FAQ Page':
+    'prefix': 'mod_faqpage'
+    'body': """
+      .mod_faqpage
+        ${1}
+        article
+          ${2}
+          &.first
+            ${3}
+          &.last
+            ${4}
+          &.even
+            ${5}
+          &.odd
+            ${6}
+        section
+          ${7}
+          &.first
+            ${8}
+          &.last
+            ${9}
+          &.even
+            ${10}
+          &.odd
+            ${11}
+        .enclosure
+          ${12}
+        .info
+          ${13}
+        .size
+          ${14}
+        .toplink
+          ${15}
+    """

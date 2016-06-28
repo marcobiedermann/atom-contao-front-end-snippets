@@ -1,0 +1,115 @@
+'.source.css':
+  'Contao Mod Eventlist':
+    'prefix': 'mod_eventlist'
+    'body': """
+      .mod_eventlist {
+        ${1}
+      }
+
+      .mod_eventlist .event {
+        ${2}
+      }
+
+      .mod_eventlist .layout_full {
+        ${3}
+      }
+
+      .mod_eventlist .layout_list {
+        ${4}
+      }
+
+      .mod_eventlist .layout_teaser {
+        ${5}
+      }
+
+      .mod_eventlist .layout_upcoming {
+        ${6}
+      }
+
+      .mod_eventlist .header {
+        ${7}
+      }
+
+      .mod_eventlist .time {
+        ${8}
+      }
+
+      .mod_eventlist .day {
+        ${9}
+      }
+
+      .mod_eventlist .location {
+        ${10}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao Mod Eventlist':
+    'prefix': 'mod_eventlist'
+    'body': """
+      .mod_eventlist {
+        ${1}
+        .event {
+          ${2}
+        }
+
+        .layout_full {
+          ${3}
+        }
+
+        .layout_list {
+          ${4}
+        }
+
+        .layout_teaser {
+          ${5}
+        }
+
+        .layout_upcoming {
+          ${6}
+        }
+
+        .header {
+          ${7}
+        }
+
+        .time {
+          ${8}
+        }
+
+        .day {
+          ${9}
+        }
+
+        .location {
+          ${10}
+        }
+
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao Mod Eventlist':
+    'prefix': 'mod_eventlist'
+    'body': """
+      .mod_eventlist
+        ${1}
+        .event
+          ${2}
+        .layout_full
+          ${3}
+        .layout_list
+          ${4}
+        .layout_teaser
+          ${5}
+        .layout_upcoming
+          ${6}
+        .header
+          ${7}
+        .time
+          ${8}
+        .day
+          ${9}
+        .location
+          ${10}
+    """

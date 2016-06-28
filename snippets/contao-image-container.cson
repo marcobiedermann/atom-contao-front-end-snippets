@@ -1,0 +1,65 @@
+'.source.css':
+  'Contao Image':
+    'prefix': 'image_container'
+    'body': """
+      .image_container {
+        ${1}
+      }
+
+      .image_container.float_above {
+        ${2}
+      }
+
+      .image_container.float_below {
+        ${3}
+      }
+
+      .image_container.float_left {
+        ${4}
+      }
+
+      .image_container.float_right {
+        ${5}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao Image':
+    'prefix': 'image_container'
+    'body': """
+      .image_container {
+        ${1}
+        &.float_above {
+          ${2}
+        }
+
+        &.float_below {
+          ${3}
+        }
+
+        &.float_left {
+          ${4}
+        }
+
+        &.float_right {
+          ${5}
+        }
+
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao Image':
+    'prefix': 'image_container'
+    'body': """
+      .image_container
+        ${1}
+        &.float_above
+          ${2}
+        &.float_below
+          ${3}
+        &.float_left
+          ${4}
+        &.float_right
+          ${5}
+    """

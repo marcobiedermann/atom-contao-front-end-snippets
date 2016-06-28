@@ -1,0 +1,118 @@
+'.source.css':
+  'Contao Pagination':
+    'prefix': 'pagination'
+    'body': """
+      .pagination {
+        ${1}
+      }
+
+      .pagination p {
+        ${2}
+      }
+
+      .pagination ul {
+        ${3}
+      }
+
+      .pagination li {
+        ${4}
+      }
+
+      .pagination a {
+        ${5}
+      }
+
+      .pagination span {
+        ${6}
+      }
+
+      .pagination .link {
+        ${7}
+      }
+
+      .pagination .previous {
+        ${8}
+      }
+
+      .pagination .next {
+        ${9}
+      }
+
+      .pagination .active,
+      .pagination .current {
+        ${10}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao Pagination':
+    'prefix': 'pagination'
+    'body': """
+      .pagination {
+        ${1}
+        p {
+          ${2}
+        }
+
+        ul {
+          ${3}
+        }
+
+        li {
+          ${4}
+        }
+
+        a {
+          ${5}
+        }
+
+        span {
+          ${6}
+        }
+
+        .link {
+          ${7}
+        }
+
+        .previous {
+          ${8}
+        }
+
+        .next {
+          ${9}
+        }
+
+        .active,
+        .current {
+          ${10}
+        }
+
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao Pagination':
+    'prefix': 'pagination'
+    'body': """
+      .pagination
+        ${1}
+        p
+          ${2}
+        ul
+          ${3}
+        li
+          ${4}
+        a
+          ${5}
+        span
+          ${6}
+        .link
+          ${7}
+        .previous
+          ${8}
+        .next
+          ${9}
+        .active,
+        .current
+          ${10}
+    """

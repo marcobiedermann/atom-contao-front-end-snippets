@@ -1,0 +1,135 @@
+'.source.css':
+  'Contao CE Headline':
+    'prefix': 'ce_headline'
+    'body': """
+      h1 {
+        ${1}
+      }
+
+      h1.ce_headline {
+        ${2}
+      }
+
+      h2 {
+        ${3}
+      }
+
+      h2.ce_headline {
+        ${4}
+      }
+
+      h3 {
+        ${5}
+      }
+
+      h3.ce_headline {
+        ${6}
+      }
+
+      h4 {
+        ${7}
+      }
+
+      h4.ce_headline {
+        ${8}
+      }
+
+      h5 {
+        ${9}
+      }
+
+      h5.ce_headline {
+        ${10}
+      }
+
+      h6 {
+        ${11}
+      }
+
+      h6.ce_headline {
+        ${12}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao CE Headline':
+    'prefix': 'ce_headline'
+    'body': """
+      h1 {
+        ${1}
+        &.ce_headline {
+          ${2}
+        }
+
+      }
+
+      h2 {
+        ${3}
+        &.ce_headline {
+          ${4}
+        }
+
+      }
+
+      h3 {
+        ${5}
+        &.ce_headline {
+          ${6}
+        }
+
+      }
+
+      h4 {
+        ${7}
+        &.ce_headline {
+          ${8}
+        }
+
+      }
+
+      h5 {
+        ${9}
+        &.ce_headline {
+          ${10}
+        }
+
+      }
+
+      h6 {
+        ${11}
+        &.ce_headline {
+          ${12}
+        }
+
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao CE Headline':
+    'prefix': 'ce_headline'
+    'body': """
+      h1
+        ${1}
+        &.ce_headline
+          ${2}
+      h2
+        ${3}
+        &.ce_headline
+          ${4}
+      h3
+        ${5}
+        &.ce_headline
+          ${6}
+      h4
+        ${7}
+        &.ce_headline
+          ${8}
+      h5
+        ${9}
+        &.ce_headline
+          ${10}
+      h6
+        ${11}
+        &.ce_headline
+          ${12}
+    """

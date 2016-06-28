@@ -1,0 +1,345 @@
+'.source.css':
+  'Contao CE Gallery':
+    'prefix': 'ce_gallery'
+    'body': """
+      .ce_gallery {
+        ${1}
+      }
+
+      .ce_gallery > ul {
+        ${2}
+      }
+
+      .ce_gallery > ul li {
+        ${3}
+      }
+
+      .ce_gallery .row_first {
+        ${4}
+      }
+
+      .ce_gallery .row_last {
+        ${5}
+      }
+
+      .ce_gallery .col_first {
+        ${6}
+      }
+
+      .ce_gallery .col_last {
+        ${7}
+      }
+
+      .ce_gallery .even {
+        ${8}
+      }
+
+      .ce_gallery .odd {
+        ${9}
+      }
+
+      .ce_gallery .cols_1 {
+        ${10}
+      }
+
+      .ce_gallery .cols_1 li {
+        ${11}
+      }
+
+      .ce_gallery .cols_2 {
+        ${12}
+      }
+
+      .ce_gallery .cols_2 li {
+        ${13}
+      }
+
+      .ce_gallery .cols_3 {
+        ${14}
+      }
+
+      .ce_gallery .cols_3 li {
+        ${15}
+      }
+
+      .ce_gallery .cols_4 {
+        ${16}
+      }
+
+      .ce_gallery .cols_4 li {
+        ${17}
+      }
+
+      .ce_gallery .cols_5 {
+        ${18}
+      }
+
+      .ce_gallery .cols_5 li {
+        ${19}
+      }
+
+      .ce_gallery .cols_6 {
+        ${20}
+      }
+
+      .ce_gallery .cols_6 li {
+        ${21}
+      }
+
+      .ce_gallery .cols_7 {
+        ${22}
+      }
+
+      .ce_gallery .cols_7 li {
+        ${23}
+      }
+
+      .ce_gallery .cols_8 {
+        ${24}
+      }
+
+      .ce_gallery .cols_8 li {
+        ${25}
+      }
+
+      .ce_gallery .cols_9 {
+        ${26}
+      }
+
+      .ce_gallery .cols_9 li {
+        ${27}
+      }
+
+      .ce_gallery .cols_10 {
+        ${28}
+      }
+
+      .ce_gallery .cols_10 li {
+        ${29}
+      }
+
+      .ce_gallery .cols_11 {
+        ${30}
+      }
+
+      .ce_gallery .cols_11 li {
+        ${31}
+      }
+
+      .ce_gallery .cols_12 {
+        ${32}
+      }
+
+      .ce_gallery .cols_12 li {
+        ${33}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao CE Gallery':
+    'prefix': 'ce_gallery'
+    'body': """
+      .ce_gallery {
+        ${1}
+        > ul {
+          ${2}
+          li {
+            ${3}
+          }
+
+        }
+
+        .row_first {
+          ${4}
+        }
+
+        .row_last {
+          ${5}
+        }
+
+        .col_first {
+          ${6}
+        }
+
+        .col_last {
+          ${7}
+        }
+
+        .even {
+          ${8}
+        }
+
+        .odd {
+          ${9}
+        }
+
+        .cols_1 {
+          ${10}
+          li {
+            ${11}
+          }
+
+        }
+
+        .cols_2 {
+          ${12}
+          li {
+            ${13}
+          }
+
+        }
+
+        .cols_3 {
+          ${14}
+          li {
+            ${15}
+          }
+
+        }
+
+        .cols_4 {
+          ${16}
+          li {
+            ${17}
+          }
+
+        }
+
+        .cols_5 {
+          ${18}
+          li {
+            ${19}
+          }
+
+        }
+
+        .cols_6 {
+          ${20}
+          li {
+            ${21}
+          }
+
+        }
+
+        .cols_7 {
+          ${22}
+          li {
+            ${23}
+          }
+
+        }
+
+        .cols_8 {
+          ${24}
+          li {
+            ${25}
+          }
+
+        }
+
+        .cols_9 {
+          ${26}
+          li {
+            ${27}
+          }
+
+        }
+
+        .cols_10 {
+          ${28}
+          li {
+            ${29}
+          }
+
+        }
+
+        .cols_11 {
+          ${30}
+          li {
+            ${31}
+          }
+
+        }
+
+        .cols_12 {
+          ${32}
+          li {
+            ${33}
+          }
+
+        }
+
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao CE Gallery':
+    'prefix': 'ce_gallery'
+    'body': """
+      .ce_gallery
+        ${1}
+        > ul
+          ${2}
+        li
+          ${3}
+        .row_first
+          ${4}
+        .row_last
+          ${5}
+        .col_first
+          ${6}
+        .col_last
+          ${7}
+        .even
+          ${8}
+        .odd
+          ${9}
+        .cols_1
+          ${10}
+          li
+            ${11}
+        .cols_2
+          ${12}
+          li
+            ${13}
+        .cols_3
+          ${14}
+          li
+            ${15}
+        .cols_4
+          ${16}
+          li
+            ${17}
+        .cols_5
+          ${18}
+          li
+            ${19}
+        .cols_6
+          ${20}
+          li
+            ${21}
+        .cols_7
+          ${22}
+          li
+            ${23}
+        .cols_8
+          ${24}
+          li
+            ${25}
+        .cols_9
+          ${26}
+          li
+            ${27}
+        .cols_10
+          ${28}
+          li
+            ${29}
+        .cols_11
+          ${30}
+          li
+            ${31}
+        .cols_12
+          ${32}
+          li
+            ${33}
+    """

@@ -1,0 +1,25 @@
+'.source.css':
+  'Contao CE Markdown':
+    'prefix': 'ce_markdown'
+    'body': """
+      .ce_markdown {
+        ${1}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao CE Markdown':
+    'prefix': 'ce_markdown'
+    'body': """
+      .ce_markdown {
+        ${1}
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao CE Markdown':
+    'prefix': 'ce_markdown'
+    'body': """
+      .ce_markdown
+        ${1}
+    """

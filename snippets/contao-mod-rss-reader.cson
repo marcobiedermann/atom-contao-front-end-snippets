@@ -1,0 +1,95 @@
+'.source.css':
+  'Contao Mod RSS Reader':
+    'prefix': 'mod_rss_reader'
+    'body': """
+      .mod_rss_reader {
+        ${1}
+      }
+
+      .mod_rss_reader .rss_default_header {
+        ${2}
+      }
+
+      .mod_rss_reader .rss_default {
+        ${3}
+      }
+
+      .mod_rss_reader .rss_default.first {
+        ${4}
+      }
+
+      .mod_rss_reader .rss_default.last {
+        ${5}
+      }
+
+      .mod_rss_reader .rss_default.even {
+        ${6}
+      }
+
+      .mod_rss_reader .rss_default.odd {
+        ${7}
+      }
+
+      .mod_rss_reader .description {
+        ${8}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao Mod RSS Reader':
+    'prefix': 'mod_rss_reader'
+    'body': """
+      .mod_rss_reader {
+        ${1}
+        .rss_default_header {
+          ${2}
+        }
+
+        .rss_default {
+          ${3}
+          &.first {
+            ${4}
+          }
+
+          &.last {
+            ${5}
+          }
+
+          &.even {
+            ${6}
+          }
+
+          &.odd {
+            ${7}
+          }
+
+        }
+
+        .description {
+          ${8}
+        }
+
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao Mod RSS Reader':
+    'prefix': 'mod_rss_reader'
+    'body': """
+      .mod_rss_reader
+        ${1}
+        .rss_default_header
+          ${2}
+        .rss_default
+          ${3}
+          &.first
+            ${4}
+          &.last
+            ${5}
+          &.even
+            ${6}
+          &.odd
+            ${7}
+        .description
+          ${8}
+    """

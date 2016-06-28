@@ -1,0 +1,25 @@
+'.source.css':
+  'Contao Layout Wrapper':
+    'prefix': 'layout_wrapper'
+    'body': """
+      #wrapper {
+        ${1}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao Layout Wrapper':
+    'prefix': 'layout_wrapper'
+    'body': """
+      #wrapper {
+        ${1}
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao Layout Wrapper':
+    'prefix': 'layout_wrapper'
+    'body': """
+      #wrapper
+        ${1}
+    """

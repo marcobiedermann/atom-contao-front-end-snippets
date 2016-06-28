@@ -1,0 +1,65 @@
+'.source.css':
+  'Contao Mod Customnav':
+    'prefix': 'mod_customnav'
+    'body': """
+      .mod_customnav {
+        ${1}
+      }
+
+      .mod_customnav ul {
+        ${2}
+      }
+
+      .mod_customnav li {
+        ${3}
+      }
+
+      .mod_customnav a {
+        ${4}
+      }
+
+      .mod_customnav span {
+        ${5}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao Mod Customnav':
+    'prefix': 'mod_customnav'
+    'body': """
+      .mod_customnav {
+        ${1}
+        ul {
+          ${2}
+        }
+
+        li {
+          ${3}
+        }
+
+        a {
+          ${4}
+        }
+
+        span {
+          ${5}
+        }
+
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao Mod Customnav':
+    'prefix': 'mod_customnav'
+    'body': """
+      .mod_customnav
+        ${1}
+        ul
+          ${2}
+        li
+          ${3}
+        a
+          ${4}
+        span
+          ${5}
+    """

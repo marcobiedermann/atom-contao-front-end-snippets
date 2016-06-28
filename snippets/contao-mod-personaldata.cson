@@ -1,0 +1,35 @@
+'.source.css':
+  'Contao Mod Personal Data':
+    'prefix': 'mod_personalData'
+    'body': """
+      .mod_personalData {
+        ${1}
+      }
+
+      .mod_personalData .fields {
+        ${2}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao Mod Personal Data':
+    'prefix': 'mod_personalData'
+    'body': """
+      .mod_personalData {
+        ${1}
+        .fields {
+          ${2}
+        }
+
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao Mod Personal Data':
+    'prefix': 'mod_personalData'
+    'body': """
+      .mod_personalData
+        ${1}
+        .fields
+          ${2}
+    """

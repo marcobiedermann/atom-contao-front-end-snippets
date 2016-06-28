@@ -1,0 +1,35 @@
+'.source.css':
+  'Contao Layout Header':
+    'prefix': 'layout_header'
+    'body': """
+      #header {
+        ${1}
+      }
+
+      #header .inside {
+        ${2}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao Layout Header':
+    'prefix': 'layout_header'
+    'body': """
+      #header {
+        ${1}
+        .inside {
+          ${2}
+        }
+
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao Layout Header':
+    'prefix': 'layout_header'
+    'body': """
+      #header
+        ${1}
+        .inside
+          ${2}
+    """

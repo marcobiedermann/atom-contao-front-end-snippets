@@ -1,0 +1,85 @@
+'.source.css':
+  'Contao Mod Booknav':
+    'prefix': 'mod_booknav'
+    'body': """
+      .mod_booknav {
+        ${1}
+      }
+
+      .mod_booknav ul {
+        ${2}
+      }
+
+      .mod_booknav li {
+        ${3}
+      }
+
+      .mod_booknav a {
+        ${4}
+      }
+
+      .mod_booknav .prev {
+        ${5}
+      }
+
+      .mod_booknav .next {
+        ${6}
+      }
+
+      .mod_booknav .up {
+        ${7}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao Mod Booknav':
+    'prefix': 'mod_booknav'
+    'body': """
+      .mod_booknav {
+        ${1}
+        ul {
+          ${2}
+        }
+
+        li {
+          ${3}
+        }
+
+        a {
+          ${4}
+        }
+
+        .prev {
+          ${5}
+        }
+
+        .next {
+          ${6}
+        }
+
+        .up {
+          ${7}
+        }
+
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao Mod Booknav':
+    'prefix': 'mod_booknav'
+    'body': """
+      .mod_booknav
+        ${1}
+        ul
+          ${2}
+        li
+          ${3}
+        a
+          ${4}
+        .prev
+          ${5}
+        .next
+          ${6}
+        .up
+          ${7}
+    """

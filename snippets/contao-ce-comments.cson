@@ -1,0 +1,106 @@
+'.source.css':
+  'Contao CE Comments':
+    'prefix': 'ce_comments'
+    'body': """
+      .ce_comments {
+        ${1}
+      }
+
+      .ce_comments .info {
+        ${2}
+      }
+
+      .ce_comments .reply {
+        ${3}
+      }
+
+      .ce_comments .comment_default {
+        ${4}
+      }
+
+      .ce_comments .comment_default.first {
+        ${5}
+      }
+
+      .ce_comments .comment_default.last {
+        ${6}
+      }
+
+      .ce_comments .comment_default.even {
+        ${7}
+      }
+
+      .ce_comments .comment_default.odd {
+        ${8}
+      }
+
+      .ce_comments .comment {
+        ${9}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao CE Comments':
+    'prefix': 'ce_comments'
+    'body': """
+      .ce_comments {
+        ${1}
+        .info {
+          ${2}
+        }
+
+        .reply {
+          ${3}
+        }
+
+        .comment_default {
+          ${4}
+
+          &.first {
+            ${5}
+          }
+
+          &.last {
+            ${6}
+          }
+
+          &.even {
+            ${7}
+          }
+
+          &.odd {
+            ${8}
+          }
+
+        }
+
+        .comment {
+          ${9}
+        }
+
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao CE Comments':
+    'prefix': 'ce_comments'
+    'body': """
+      .ce_comments
+        ${1}
+        .info
+          ${2}
+        .reply
+          ${3}
+        .comment_default
+          ${4}
+          &.first
+            ${5}
+          &.last
+            ${6}
+          &.even
+            ${7}
+          &.odd
+            ${8}
+        .comment
+          ${9}
+    """

@@ -1,0 +1,25 @@
+'.source.css':
+  'Contao CE Teaser':
+    'prefix': 'ce_teaser'
+    'body': """
+      .ce_teaser {
+        ${1}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao CE Teaser':
+    'prefix': 'ce_teaser'
+    'body': """
+      .ce_teaser {
+        ${1}
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao CE Teaser':
+    'prefix': 'ce_teaser'
+    'body': """
+      .ce_teaser
+        ${1}
+    """

@@ -1,0 +1,36 @@
+'.source.css':
+  'Contao CE YouTube':
+    'prefix': 'ce_youtube'
+    'body': """
+      .ce_youtube {
+        ${1}
+      }
+
+      .ce_youtube video {
+        ${2}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao CE YouTube':
+    'prefix': 'ce_youtube'
+    'body': """
+      .ce_youtube {
+        ${1}
+
+        video {
+          ${2}
+        }
+
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao CE YouTube':
+    'prefix': 'ce_youtube'
+    'body': """
+      .ce_youtube
+        ${1}
+        video
+          ${2}
+    """

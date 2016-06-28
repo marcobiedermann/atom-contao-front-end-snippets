@@ -1,0 +1,35 @@
+'.source.css':
+  'Contao Layout Left':
+    'prefix': 'layout_left'
+    'body': """
+      #left {
+        ${1}
+      }
+
+      #left .inside {
+        ${2}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao Layout Left':
+    'prefix': 'layout_left'
+    'body': """
+      #left {
+        ${1}
+        .inside {
+          ${2}
+        }
+
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao Layout Left':
+    'prefix': 'layout_left'
+    'body': """
+      #left
+        ${1}
+        .inside
+          ${2}
+    """

@@ -1,0 +1,29 @@
+{
+  "name": "atom-contao-frontend-snippets",
+  "version": "1.0.0",
+  "description": "Atom snippet library for Contao Front-End Classes. Compatible with Contao 4.2.X and 3.5.X.",
+  "engines": {
+    "atom": "*"
+  },
+  "author": "Marco Biedermann",
+  "homepage": "https://www.marcobiedermann.com/",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcobiedermann/atom-contao-frontend-snippets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcobiedermann/atom-contao-frontend-snippets/issues"
+  },
+  "keywords": [
+    "contao",
+    "cms",
+    "front-end",
+    "snippets",
+    "css",
+    "less",
+    "sass",
+    "scss",
+    "stylus"
+  ]
+}

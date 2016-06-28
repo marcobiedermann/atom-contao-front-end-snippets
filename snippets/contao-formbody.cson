@@ -1,0 +1,295 @@
+'.source.css':
+  'Contao Formbody':
+    'prefix': 'formbody'
+    'body': """
+      .formbody {
+        ${1}
+      }
+
+      .formbody fieldset {
+        ${2}
+      }
+
+      .formbody label {
+        ${3}
+      }
+
+      .formbody label.mandatory {
+        ${4}
+      }
+
+      .formbody .captcha {
+        ${5}
+      }
+
+      .formbody .password {
+        ${6}
+      }
+
+      .formbody .text {
+        ${7}
+      }
+
+      .formbody .upload {
+        ${8}
+      }
+
+      .formbody .checkbox {
+        ${9}
+      }
+
+      .formbody .radio {
+        ${10}
+      }
+
+      .formbody select.select {
+        ${11}
+      }
+
+      .formbody .textarea {
+        ${12}
+      }
+
+      .formbody .submit {
+        ${13}
+      }
+
+      .formbody span.mandatory {
+        ${14}
+      }
+
+      .formbody .widget {
+        ${15}
+      }
+
+      .formbody .widget.confirm {
+        ${16}
+      }
+
+      .formbody .widget.mandatory {
+        ${17}
+      }
+
+      .formbody .widget-captcha {
+        ${18}
+      }
+
+      .formbody .widget-checkbox {
+        ${19}
+      }
+
+      .formbody .widget-password {
+        ${20}
+      }
+
+      .formbody .widget-radio {
+        ${21}
+      }
+
+      .formbody .widget-select {
+        ${22}
+      }
+
+      .formbody .widget-text {
+        ${23}
+      }
+
+      .formbody .widget-textarea {
+        ${24}
+      }
+
+      .formbody .widget-upload {
+        ${25}
+      }
+
+      .formbody .checkbox_container {
+        ${26}
+      }
+
+      .formbody .radio_container {
+        ${27}
+      }
+
+      .formbody .submit_container {
+        ${28}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao Formbody':
+    'prefix': 'formbody'
+    'body': """
+      .formbody {
+        ${1}
+        fieldset {
+          ${2}
+        }
+
+        label {
+          ${3}
+          &.mandatory {
+            ${4}
+          }
+
+        }
+
+        .captcha {
+          ${5}
+        }
+
+        .password {
+          ${6}
+        }
+
+        .text {
+          ${7}
+        }
+
+        .upload {
+          ${8}
+        }
+
+        .checkbox {
+          ${9}
+        }
+
+        .radio {
+          ${10}
+        }
+
+        select.select {
+          ${11}
+        }
+
+        .textarea {
+          ${12}
+        }
+
+        .submit {
+          ${13}
+        }
+
+        span.mandatory {
+          ${14}
+        }
+
+        .widget {
+          ${15}
+          &.confirm {
+            ${16}
+          }
+
+          &.mandatory {
+            ${17}
+          }
+
+        }
+
+        .widget-captcha {
+          ${18}
+        }
+
+        .widget-checkbox {
+          ${19}
+        }
+
+        .widget-password {
+          ${20}
+        }
+
+        .widget-radio {
+          ${21}
+        }
+
+        .widget-select {
+          ${22}
+        }
+
+        .widget-text {
+          ${23}
+        }
+
+        .widget-textarea {
+          ${24}
+        }
+
+        .widget-upload {
+          ${25}
+        }
+
+        .checkbox_container {
+          ${26}
+        }
+
+        .radio_container {
+          ${27}
+        }
+
+        .submit_container {
+          ${28}
+        }
+
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao Formbody':
+    'prefix': 'formbody'
+    'body': """
+      .formbody
+        ${1}
+        fieldset
+          ${2}
+        label
+          ${3}
+          &.mandatory
+            ${4}
+        .captcha
+          ${5}
+        .password
+          ${6}
+        .text
+          ${7}
+        .upload
+          ${8}
+        .checkbox
+          ${9}
+        .radio
+          ${10}
+        select.select
+          ${11}
+        .textarea
+          ${12}
+        .submit
+          ${13}
+        span.mandatory
+          ${14}
+        .widget
+          ${15}
+          &.confirm
+            ${16}
+          &.mandatory
+            ${17}
+        .widget-captcha
+          ${18}
+        .widget-checkbox
+          ${19}
+        .widget-password
+          ${20}
+        .widget-radio
+          ${21}
+        .widget-select
+          ${22}
+        .widget-text
+          ${23}
+        .widget-textarea
+          ${24}
+        .widget-upload
+          ${25}
+        .checkbox_container
+          ${26}
+        .radio_container
+          ${27}
+        .submit_container
+          ${28}
+    """

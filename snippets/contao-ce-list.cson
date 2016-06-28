@@ -1,0 +1,95 @@
+'.source.css':
+  'Contao CE List':
+    'prefix': 'ce_list'
+    'body': """
+      .ce_list {
+        ${1}
+      }
+
+      .ce_list ol {
+        ${2}
+      }
+
+      .ce_list ol li {
+        ${3}
+      }
+
+      .ce_list ul {
+        ${4}
+      }
+
+      .ce_list ul li {
+        ${5}
+      }
+
+      .ce_list li {
+        ${6}
+      }
+
+      .ce_list .first {
+        ${7}
+      }
+
+      .ce_list .last {
+        ${8}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao CE List':
+    'prefix': 'ce_list'
+    'body': """
+      .ce_list {
+        ${1}
+        ol {
+          ${2}
+          li {
+            ${3}
+          }
+
+        }
+
+        ul {
+          ${4}
+          li {
+            ${5}
+          }
+
+        }
+
+        li {
+          ${6}
+        }
+
+        .first {
+          ${7}
+        }
+
+        .last {
+          ${8}
+        }
+
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao CE List':
+    'prefix': 'ce_list'
+    'body': """
+      .ce_list
+        ${1}
+        ol
+          ${2}
+          li
+            ${3}
+        ul
+          ${4}
+          li
+            ${5}
+        li
+          ${6}
+        .first
+          ${7}
+        .last
+          ${8}
+    """

@@ -1,0 +1,165 @@
+'.source.css':
+  'Contao Mod Search':
+    'prefix': 'mod_search'
+    'body': """
+      .mod_search {
+        ${1}
+      }
+
+      .mod_search .formbody {
+        ${2}
+      }
+
+      .mod_search .text {
+        ${3}
+      }
+
+      .mod_search .submit {
+        ${4}
+      }
+
+      .mod_search .header {
+        ${5}
+      }
+
+      .mod_search > div {
+        ${6}
+      }
+
+      .mod_search > div.first {
+        ${7}
+      }
+
+      .mod_search > div.last {
+        ${8}
+      }
+
+      .mod_search > div.even {
+        ${9}
+      }
+
+      .mod_search > div.odd {
+        ${10}
+      }
+
+      .mod_search .relevance {
+        ${11}
+      }
+
+      .mod_search .context {
+        ${12}
+      }
+
+      .mod_search .highlight {
+        ${13}
+      }
+
+      .mod_search .url {
+        ${14}
+      }
+
+      .mod_search .filezize {
+        ${15}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao Mod Search':
+    'prefix': 'mod_search'
+    'body': """
+      .mod_search {
+        ${1}
+        .formbody {
+          ${2}
+        }
+
+        .text {
+          ${3}
+        }
+
+        .submit {
+          ${4}
+        }
+
+        .header {
+          ${5}
+        }
+
+        > div {
+          ${6}
+          &.first {
+            ${7}
+          }
+
+          &.last {
+            ${8}
+          }
+
+          &.even {
+            ${9}
+          }
+
+          &.odd {
+            ${10}
+          }
+
+        }
+
+        .relevance {
+          ${11}
+        }
+
+        .context {
+          ${12}
+        }
+
+        .highlight {
+          ${13}
+        }
+
+        .url {
+          ${14}
+        }
+
+        .filezize {
+          ${15}
+        }
+
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao Mod Search':
+    'prefix': 'mod_search'
+    'body': """
+      .mod_search
+        ${1}
+        .formbody
+          ${2}
+        .text
+          ${3}
+        .submit
+          ${4}
+        .header
+          ${5}
+        > div
+          ${6}
+          &.first
+            ${7}
+          &.last
+            ${8}
+          &.even
+            ${9}
+          &.odd
+            ${10}
+        .relevance
+          ${11}
+        .context
+          ${12}
+        .highlight
+          ${13}
+        .url
+          ${14}
+        .filezize
+          ${15}
+    """

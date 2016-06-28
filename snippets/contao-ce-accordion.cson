@@ -1,0 +1,75 @@
+'.source.css':
+  'Contao CE Accordion':
+    'prefix': 'ce_accordion'
+    'body': """
+      .ce_accordion {
+        ${1}
+      }
+
+      .ce_accordion .toggler {
+        ${2}
+      }
+
+      .ce_accordion .ui-accordion-header-icon {
+        ${3}
+      }
+
+      .ce_accordion .ui-icon-triangle-1-e {
+        ${4}
+      }
+
+      .ce_accordion .ui-icon-triangle-1-s {
+        ${5}
+      }
+
+      .ce_accordion .accordion {
+        ${6}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao CE Accordion':
+    'prefix': 'ce_accordion'
+    'body': """
+      .ce_accordion {
+        ${1}
+        .toggler {
+          ${2}
+        }
+
+        .ui-accordion-header-icon {
+          ${3}
+        }
+
+        .ui-icon-triangle-1-e {
+          ${4}
+        }
+
+        .ui-icon-triangle-1-s {
+          ${5}
+        }
+
+        .accordion {
+          ${6}
+        }
+
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao CE Accordion':
+    'prefix': 'ce_accordion'
+    'body': """
+      .ce_accordion
+        ${1}
+        .toggler
+          ${2}
+        .ui-accordion-header-icon
+          ${3}
+        .ui-icon-triangle-1-e
+          ${4}
+        .ui-icon-triangle-1-s
+          ${5}
+        .accordion
+          ${6}
+    """

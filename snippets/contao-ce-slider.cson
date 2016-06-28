@@ -1,0 +1,95 @@
+'.source.css':
+  'Contao CE Slider':
+    'prefix': 'ce_slider'
+    'body': """
+      .ce_sliderStart {
+        ${1}
+      }
+
+      .ce_sliderStart .content-slider {
+        ${2}
+      }
+
+      .ce_sliderStart .slider-wrapper {
+        ${3}
+      }
+
+      .ce_sliderStart .slider-control {
+        ${4}
+      }
+
+      .ce_sliderStart .slider-menu {
+        ${5}
+        .active {
+          ${6}
+        }
+
+      }
+
+      .ce_sliderStart .slider-prev {
+        ${7}
+      }
+
+      .ce_sliderStart .slider-next {
+        ${8}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao CE Slider':
+    'prefix': 'ce_slider'
+    'body': """
+      .ce_sliderStart {
+        ${1}
+        .content-slider {
+          ${2}
+        }
+
+        .slider-wrapper {
+          ${3}
+        }
+
+        .slider-control {
+          ${4}
+        }
+
+        .slider-menu {
+          ${5}
+          .active {
+            ${6}
+          }
+
+        }
+
+        .slider-prev {
+          ${7}
+        }
+
+        .slider-next {
+          ${8}
+        }
+
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao CE Slider':
+    'prefix': 'ce_slider'
+    'body': """
+      .ce_sliderStart
+        ${1}
+        .content-slider
+          ${2}
+        .slider-wrapper
+          ${3}
+        .slider-control
+          ${4}
+        .slider-menu
+          ${5}
+          .active
+            ${6}
+        .slider-prev
+          ${7}
+        .slider-next
+          ${8}
+    """

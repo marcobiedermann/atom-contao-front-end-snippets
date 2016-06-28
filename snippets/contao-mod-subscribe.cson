@@ -1,0 +1,45 @@
+'.source.css':
+  'Contao Mod Subscribe':
+    'prefix': 'mod_subscribe'
+    'body': """
+      .mod_subscribe {
+        ${1}
+      }
+
+      .mod_subscribe .formbody {
+        ${2}
+      }
+
+      .mod_subscribe .text {
+        ${3}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao Mod Subscribe':
+    'prefix': 'mod_subscribe'
+    'body': """
+      .mod_subscribe {
+        ${1}
+        .formbody {
+          ${2}
+        }
+
+        .text {
+          ${3}
+        }
+
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao Mod Subscribe':
+    'prefix': 'mod_subscribe'
+    'body': """
+      .mod_subscribe
+        ${1}
+        .formbody
+          ${2}
+        .text
+          ${3}
+    """

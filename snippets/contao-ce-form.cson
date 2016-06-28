@@ -1,0 +1,25 @@
+'.source.css':
+  'Contao CE Form':
+    'prefix': 'ce_form'
+    'body': """
+      .ce_form {
+        ${1}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao CE Form':
+    'prefix': 'ce_form'
+    'body': """
+      .ce_form {
+        ${1}
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao CE Form':
+    'prefix': 'ce_form'
+    'body': """
+      .ce_form
+        ${1}
+    """

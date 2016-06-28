@@ -1,0 +1,45 @@
+'.source.css':
+  'Contao CE Hyperlink':
+    'prefix': 'ce_hyperlink'
+    'body': """
+      .ce_hyperlink {
+        ${1}
+      }
+
+      .ce_hyperlink .hyperlink_txt {
+        ${2}
+      }
+
+      .ce_hyperlink .hyperlink_img {
+        ${3}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao CE Hyperlink':
+    'prefix': 'ce_hyperlink'
+    'body': """
+      .ce_hyperlink {
+        ${1}
+        .hyperlink_txt {
+          ${2}
+        }
+
+        .hyperlink_img {
+          ${3}
+        }
+
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao CE Hyperlink':
+    'prefix': 'ce_hyperlink'
+    'body': """
+      .ce_hyperlink
+        ${1}
+        .hyperlink_txt
+          ${2}
+        .hyperlink_img
+          ${3}
+    """

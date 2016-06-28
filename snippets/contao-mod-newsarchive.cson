@@ -1,0 +1,86 @@
+'.source.css':
+  'Contao Mod Newsarchive':
+    'prefix': 'mod_newsarchive'
+    'body': """
+      .mod_newsarchive {
+        ${1}
+      }
+
+      .mod_newsarchive .layout_full {
+        ${2}
+      }
+
+      .mod_newsarchive .layout_latest {
+        ${3}
+      }
+
+      .mod_newsarchive .layout_simple {
+        ${4}
+      }
+
+      .mod_newsarchive .layout_short {
+        ${5}
+      }
+
+      .mod_newsarchive .info {
+        ${6}
+      }
+
+      .mod_newsarchive .teaser {
+        ${7}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao Mod Newsarchive':
+    'prefix': 'mod_newsarchive'
+    'body': """
+      .mod_newsarchive {
+        ${1}
+
+        .layout_full {
+          ${2}
+        }
+
+        .layout_latest {
+          ${3}
+        }
+
+        .layout_simple {
+          ${4}
+        }
+
+        .layout_short {
+          ${5}
+        }
+
+        .info {
+          ${6}
+        }
+
+        .teaser {
+          ${7}
+        }
+
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao Mod Newsarchive':
+    'prefix': 'mod_newsarchive'
+    'body': """
+      .mod_newsarchive
+        ${1}
+        .layout_full
+          ${2}
+        .layout_latest
+          ${3}
+        .layout_simple
+          ${4}
+        .layout_short
+          ${5}
+        .info
+          ${6}
+        .teaser
+          ${7}
+    """

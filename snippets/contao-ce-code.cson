@@ -1,0 +1,36 @@
+'.source.css':
+  'Contao CE Code':
+    'prefix': 'ce_code'
+    'body': """
+      .ce_code {
+        ${1}
+      }
+
+      .ce_code pre {
+        ${2}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao CE Code':
+    'prefix': 'ce_code'
+    'body': """
+      .ce_code {
+        ${1}
+
+        pre {
+          ${2}
+        }
+
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao CE Code':
+    'prefix': 'ce_code'
+    'body': """
+      .ce_code
+        ${1}
+        pre
+          ${2}
+    """

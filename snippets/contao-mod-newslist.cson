@@ -1,0 +1,86 @@
+'.source.css':
+  'Contao Mod Newslist':
+    'prefix': 'mod_newslist'
+    'body': """
+      .mod_newslist {
+        ${1}
+      }
+
+      .mod_newslist .layout_full {
+        ${2}
+      }
+
+      .mod_newslist .layout_latest {
+        ${3}
+      }
+
+      .mod_newslist .layout_simple {
+        ${4}
+      }
+
+      .mod_newslist .layout_short {
+        ${5}
+      }
+
+      .mod_newslist .info {
+        ${6}
+      }
+
+      .mod_newslist .teaser {
+        ${7}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao Mod Newslist':
+    'prefix': 'mod_newslist'
+    'body': """
+      .mod_newslist {
+        ${1}
+
+        .layout_full {
+          ${2}
+        }
+
+        .layout_latest {
+          ${3}
+        }
+
+        .layout_simple {
+          ${4}
+        }
+
+        .layout_short {
+          ${5}
+        }
+
+        .info {
+          ${6}
+        }
+
+        .teaser {
+          ${7}
+        }
+
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao Mod Newslist':
+    'prefix': 'mod_newslist'
+    'body': """
+      .mod_newslist
+        ${1}
+        .layout_full
+          ${2}
+        .layout_latest
+          ${3}
+        .layout_simple
+          ${4}
+        .layout_short
+          ${5}
+        .info
+          ${6}
+        .teaser
+          ${7}
+    """

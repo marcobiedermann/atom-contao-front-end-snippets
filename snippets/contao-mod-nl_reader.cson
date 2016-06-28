@@ -1,0 +1,75 @@
+'.source.css':
+  'Contao Mod Newsletter Reader':
+    'prefix': 'mod_nl_reader'
+    'body': """
+      .mod_nl_reader {
+        ${1}
+      }
+
+      .mod_nl_reader .newsletter {
+        ${2}
+      }
+
+      .mod_nl_reader .enclosure {
+        ${3}
+      }
+
+      .mod_nl_reader .enclosure a {
+        ${4}
+      }
+
+      .mod_nl_reader .enclosure .mime_icon {
+        ${5}
+      }
+
+      .mod_nl_reader .enclosure .size {
+        ${6}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao Mod Newsletter Reader':
+    'prefix': 'mod_nl_reader'
+    'body': """
+      .mod_nl_reader {
+        ${1}
+        .newsletter {
+          ${2}
+        }
+
+        .enclosure {
+          ${3}
+          a {
+            ${4}
+          }
+
+          .mime_icon {
+            ${5}
+          }
+
+          .size {
+            ${6}
+          }
+
+        }
+
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao Mod Newsletter Reader':
+    'prefix': 'mod_nl_reader'
+    'body': """
+      .mod_nl_reader
+        ${1}
+        .newsletter
+          ${2}
+        .enclosure
+          ${3}
+          a
+            ${4}
+          .mime_icon
+            ${5}
+          .size
+            ${6}
+    """

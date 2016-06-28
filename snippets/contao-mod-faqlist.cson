@@ -1,0 +1,135 @@
+'.source.css':
+  'Contao Mod FAQ List':
+    'prefix': 'mod_faqlist'
+    'body': """
+      .mod_faqlist {
+        ${1}
+      }
+
+      .mod_faqlist ul {
+        ${2}
+      }
+
+      .mod_faqlist ul.first {
+        ${3}
+      }
+
+      .mod_faqlist ul.last {
+        ${4}
+      }
+
+      .mod_faqlist ul.even {
+        ${5}
+      }
+
+      .mod_faqlist ul.odd {
+        ${6}
+      }
+
+      .mod_faqlist li {
+        ${7}
+      }
+
+      .mod_faqlist li.first {
+        ${8}
+      }
+
+      .mod_faqlist li.last {
+        ${9}
+      }
+
+      .mod_faqlist li.even {
+        ${10}
+      }
+
+      .mod_faqlist li.odd {
+        ${11}
+      }
+
+      .mod_faqlist a {
+        ${12}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao Mod FAQ List':
+    'prefix': 'mod_faqlist'
+    'body': """
+      .mod_faqlist {
+        ${1}
+        ul {
+          ${2}
+          &.first {
+            ${3}
+          }
+
+          &.last {
+            ${4}
+          }
+
+          &.even {
+            ${5}
+          }
+
+          &.odd {
+            ${6}
+          }
+
+        }
+
+        li {
+          ${7}
+          &.first {
+            ${8}
+          }
+
+          &.last {
+            ${9}
+          }
+
+          &.even {
+            ${10}
+          }
+
+          &.odd {
+            ${11}
+          }
+
+        }
+
+        a {
+          ${12}
+        }
+
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao Mod FAQ List':
+    'prefix': 'mod_faqlist'
+    'body': """
+      .mod_faqlist
+        ${1}
+        ul
+          ${2}
+          &.first
+            ${3}
+          &.last
+            ${4}
+          &.even
+            ${5}
+          &.odd
+            ${6}
+        li
+          ${7}
+          &.first
+            ${8}
+          &.last
+            ${9}
+          &.even
+            ${10}
+          &.odd
+            ${11}
+        a
+          ${12}
+    """

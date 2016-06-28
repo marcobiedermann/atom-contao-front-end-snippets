@@ -1,0 +1,55 @@
+'.source.css':
+  'Contao Mod Newsletter List':
+    'prefix': 'mod_nl_list'
+    'body': """
+      .mod_nl_list {
+        ${1}
+      }
+
+      .mod_nl_list ul {
+        ${2}
+      }
+
+      .mod_nl_list li {
+        ${3}
+      }
+
+      .mod_nl_list a {
+        ${4}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao Mod Newsletter List':
+    'prefix': 'mod_nl_list'
+    'body': """
+      .mod_nl_list {
+        ${1}
+        ul {
+          ${2}
+        }
+
+        li {
+          ${3}
+        }
+
+        a {
+          ${4}
+        }
+
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao Mod Newsletter List':
+    'prefix': 'mod_nl_list'
+    'body': """
+      .mod_nl_list
+        ${1}
+        ul
+          ${2}
+        li
+          ${3}
+        a
+          ${4}
+    """

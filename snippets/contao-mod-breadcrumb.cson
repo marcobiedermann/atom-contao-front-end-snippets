@@ -1,0 +1,85 @@
+'.source.css':
+  'Contao Mod Breadcrumb':
+    'prefix': 'mod_breadcrumb'
+    'body': """
+      .mod_breadcrumb {
+        ${1}
+      }
+
+      .mod_breadcrumb ul {
+        ${2}
+      }
+
+      .mod_breadcrumb li {
+        ${3}
+      }
+
+      .mod_breadcrumb a {
+        ${4}
+      }
+
+      .mod_breadcrumb .first {
+        ${5}
+      }
+
+      .mod_breadcrumb .last {
+        ${6}
+      }
+
+      .mod_breadcrumb .active {
+        ${7}
+      }
+    """
+
+'.source.less, .source.scss':
+  'Contao Mod Breadcrumb':
+    'prefix': 'mod_breadcrumb'
+    'body': """
+      .mod_breadcrumb {
+        ${1}
+        ul {
+          ${2}
+        }
+
+        li {
+          ${3}
+        }
+
+        a {
+          ${4}
+        }
+
+        .first {
+          ${5}
+        }
+
+        .last {
+          ${6}
+        }
+
+        .active {
+          ${7}
+        }
+
+      }
+    """
+
+'.source.sass, .source.styl':
+  'Contao Mod Breadcrumb':
+    'prefix': 'mod_breadcrumb'
+    'body': """
+      .mod_breadcrumb
+        ${1}
+        ul
+          ${2}
+        li
+          ${3}
+        a
+          ${4}
+        .first
+          ${5}
+        .last
+          ${6}
+        .active
+          ${7}
+    """
