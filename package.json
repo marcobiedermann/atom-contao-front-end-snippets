@@ -1,5 +1,5 @@
 {
-  "name": "atom-contao-frontend-snippets",
+  "name": "contao-front-end-snippets",
   "version": "1.0.0",
   "description": "Atom snippet library for Contao Front-End Classes. Compatible with Contao 4.2.X and 3.5.X.",
   "engines": {
@@ -10,10 +10,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/marcobiedermann/atom-contao-frontend-snippets.git"
+    "url": "https://github.com/marcobiedermann/atom-contao-front-end-snippets.git"
   },
   "bugs": {
-    "url": "https://github.com/marcobiedermann/atom-contao-frontend-snippets/issues"
+    "url": "https://github.com/marcobiedermann/atom-contao-front-end-snippets/issues"
   },
   "keywords": [
     "contao",
