@@ -1,6 +1,6 @@
 {
   "name": "contao-front-end-snippets",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Atom snippet library for Contao Front-End Classes. Compatible with Contao 4.2.X and 3.5.X.",
   "engines": {
     "atom": "*"
