@@ -1,5 +1,7 @@
 # Atom Contao Front-End Snippets
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/marcobiedermann/atom-contao-front-end-snippets.svg)](https://greenkeeper.io/)
+
 [Atom](https://atom.io/) snippet library for Contao Front-End Classes.
 Compatible with Contao 4.2.X and 3.5.X.
 
